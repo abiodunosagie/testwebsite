@@ -1,0 +1,364 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+.wrapper {
+  width: 100%;
+  overflow: hidden;
+}
+.topheader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #3e54a3;
+  color: white;
+  height: 50px;
+}
+
+.topheader i {
+  padding: 4px;
+}
+
+.topheader a {
+  color: white;
+}
+
+.nav_container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 15px;
+}
+
+.logo {
+  flex: 2;
+}
+
+.nav_container ul {
+  display: flex;
+}
+
+.nav_container ul li {
+  list-style: none;
+  padding: 8px;
+  font-size: 15px;
+  font-weight: bolder;
+}
+
+.nav_container ul li a {
+  text-decoration: none;
+  color: black;
+  font-weight: 400;
+}
+
+.nav_container ul li a:hover {
+  cursor: pointer;
+  border-bottom: 2px solid #ed2c48;
+}
+
+.header-button button {
+  outline: none;
+  border: none;
+  background-color: black;
+  border-radius: 20px;
+  color: white;
+  padding: 15px 30px;
+}
+.header-button a {
+  text-decoration: none;
+  color: white;
+  cursor: pointer;
+}
+.header-button i {
+  font-size: 20px;
+  color: white;
+  cursor: pointer;
+}
+
+.challenge_div {
+  border-top: 1px solid rgba(128, 128, 128, 0.168);
+  border-bottom: 1px solid rgba(128, 128, 128, 0.168);
+  padding: 10px;
+}
+
+.challenge_div p {
+  display: inline;
+  padding-right: 10px;
+  padding-left: 10px;
+  height: 20px;
+  border-right: 1px solid rgba(128, 128, 128, 0.168);
+  border-left: 1px solid rgba(128, 128, 128, 0.168);
+}
+
+.card_section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+
+  height: 25%;
+  margin: 20px 40px;
+  padding: 20px;
+  border-radius: 10px;
+  border: 1px solid rgba(128, 128, 128, 0.207);
+  box-shadow: grey rgba(255, 255, 255, 0.5);
+}
+
+.card-a {
+  padding: 0 10px;
+  flex: 2;
+}
+.card-a-top-row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+
+.top-row-one {
+  display: flex;
+  align-items: center;
+  gap: 0 15px;
+  justify-content: space-between;
+}
+
+.class-a-free {
+  display: inline;
+  background-color: #f38926;
+  border-radius: 15px;
+  color: white;
+  padding: 0 15px;
+  text-align: center;
+}
+.class-a-secondtext {
+  color: #6abfcd;
+}
+
+.class-a-thirdtext {
+  color: #3e54a3;
+}
+
+.class-a-fourthtext {
+  border: 1px solid #6abfcd;
+  border-radius: 5px;
+  padding: 0 5px;
+}
+
+.card-a-title {
+  font-size: 28px;
+  font-weight: 400;
+  margin-bottom: 15px;
+}
+
+.card-a-subtitle {
+  margin-bottom: 15px;
+  font-size: 16px;
+  font-weight: 400;
+  color: rgba(115, 115, 115, 115);
+  line-height: 24px;
+}
+.card-a-button {
+  color: white;
+  background-color: #ed2c49;
+  border-radius: 20px;
+  padding: 15px 35px;
+  border: none;
+}
+
+.card-b {
+  flex: 2;
+}
+.card-b-image {
+  width: 100%;
+  height: auto;
+}
+
+.card-b-second-column {
+  display: flex;
+  align-items: start;
+}
+.class-b-firsttitle {
+  background-color: #3e54a2;
+  border-radius: 20px;
+  color: white;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 21px;
+  padding: 5px 15px;
+  margin-right: 10px;
+}
+
+.class-b-secondtitle {
+  background-color: #dbe5e6;
+  border-radius: 20px;
+  color: #737273;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 21px;
+  padding: 5px 15px;
+}
+.card-c {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  margin: 20px 40px;
+  gap: 20px;
+}
+
+.brief-card {
+  flex: 1;
+
+  padding: 50px 20px;
+  border: 1px solid rgba(128, 128, 128, 0.22);
+  border-radius: 8px;
+}
+.card-c-secondsection {
+  flex: 0 0 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.asset-card,
+.ideas-card {
+  padding: 20px;
+  border: 1px solid rgba(128, 128, 128, 0.22);
+  border-radius: 8px;
+}
+.brief-section,
+.asset-section,
+.ideas-section {
+  display: flex;
+  align-items: center;
+  font-size: 20px;
+  font-weight: 400;
+  gap: 10px;
+}
+.brief-section i {
+  font-size: 20;
+}
+.brief-title p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.asset-list li,
+.ideas-list li {
+  margin-bottom: 10px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.card-d {
+  min-height: 100vh;
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.faqtitle {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 27px;
+  color: black;
+  margin: 2rem 0rem;
+}
+.faq {
+  max-width: 700px;
+  margin-top: 2rem;
+  padding: 20px 40px;
+  border-bottom: 2px solid #fff;
+  cursor: pointer;
+  border: 1px solid rgba(128, 128, 128, 0.22);
+  border-radius: 10px;
+}
+
+.question {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.question h3 {
+  font-size: 18px;
+  font-weight: 600;
+  color: rgba(28, 32, 34);
+}
+
+.answer {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 1.4s ease;
+}
+.answer p {
+  font-size: 16px;
+  font-weight: 400;
+  color: rgba(115, 115, 115);
+  padding-top: 1rem;
+  line-height: 24px;
+}
+.faq.active .answer {
+  max-height: 300px;
+}
+.faq.active .bx bx-chevron-down {
+  transform: rotate(240dg);
+}
+
+.card-e {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 400px;
+  background-color: #3e54a2;
+  border-radius: 10px;
+  margin: 20px 40px;
+}
+
+.discord-row {
+  display: flex;
+  justify-content: center;
+  color: white;
+}
+
+.discord-row i {
+  font-size: 50px;
+}
+
+.discord-row h3 {
+  font-size: 30px;
+}
+
+.discord-title {
+  text-align: center;
+  color: rgba(255, 255, 255);
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.discord-subtitle {
+  text-align: center;
+  color: rgba(255, 255, 255);
+  font-size: 28px;
+  font-weight: 36px;
+  margin-bottom: 10px;
+  padding: 10px 20px;
+}
+
+.discord-button {
+  text-align: center;
+  margin: 0 auto;
+  display: block;
+  padding: 10px 30px;
+  border-radius: 20px;
+  border: none;
+  color: #3e54a2;
+  font-weight: 700;
+}
